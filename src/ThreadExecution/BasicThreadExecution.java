@@ -23,7 +23,7 @@ public class BasicThreadExecution {
     }
 
     public static void main(String[] args) throws InterruptedException {
-        long waitingTime = 10 * 1000; // Waiting time of 30seconds(30,000ms)
+        long waitingTime = 30 * 1000; // Waiting time of 30seconds(30,000ms)
 
         printThreadMessage("About to start SimpleTask Thread");
         long startTime = System.currentTimeMillis();
